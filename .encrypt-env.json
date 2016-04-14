@@ -1,0 +1,14 @@
+{
+	"PRODUCTION": {
+		"aesKey": "~/.ssh/readerbot.prod.aes",
+		"envFile": ".prod.env"
+	},
+	"DEVELOPMENT": {
+		"aesKey": "~/.ssh/founders.dev.aes",
+		"envFile": ".dev.env"
+	},
+	"STAGING": {
+		"aesKey": "~/.ssh/founders.dev.aes",
+		"envFile": ".staging.env"
+	}
+}
