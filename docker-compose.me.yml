@@ -2,3 +2,5 @@
 redis:
   image: redis:3.0-alpine
   env_file: .dev.env
+  labels:
+    sealand.rewrite: 'true'
